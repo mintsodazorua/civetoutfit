@@ -1,0 +1,34 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"cd368b4d53eea373",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_Fallback"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8390db68018eb487",
+				{
+					"SetFactory": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_smart_scarf.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8390db68018eb487",
+				{
+					"SetBlueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_smart_scarf.entitytemplate].pc_entityblueprint"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

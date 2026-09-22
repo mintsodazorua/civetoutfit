@@ -1,0 +1,12 @@
+{
+    "$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+    "id": "Mint.CivetOutfit",
+    "name": "Smart Casual Scarf Outfit",
+    "description": "Later.",
+    "authors": ["MintSodaZorua"],
+    "frameworkVersion": "2.33.27",
+    "version": "1.0.0",
+    "contentFolders": ["content"],
+    "blobsFolders": ["blobs"],
+    "dependencies": ["chunk1"]
+}

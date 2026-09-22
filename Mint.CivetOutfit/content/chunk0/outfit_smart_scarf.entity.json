@@ -1,0 +1,317 @@
+{
+	"tempHash": "00CEBEB38E1908ED",
+	"tbluHash": "001C001D0EC5DE1D",
+	"rootEntity": "22ea5f8267450642",
+	"entities": {
+		"22ea5f8267450642": {
+			"parent": null,
+			"name": "OUTFIT_Agent47_Smart_Scarf_HeroA_V0",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype,[modules:/zheroidlenetworkaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype,[modules:/zheroidlenetworkaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 39.068450927734375,
+							"y": 4.066530227661133,
+							"z": 0.0
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/hero/agent47/geometry/agent47_s3_head.wl2?/bones.weightedprim](bodypart).pc_bonerig",
+						"flag": "5F"
+					}
+				},
+				"m_bUsePerVertexStiffness": {
+					"type": "bool",
+					"value": true
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_bGlobalCollidersEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDamping": { "type": "float32", "value": 1.0 },
+				"m_fBendStiffness": { "type": "float32", "value": 1.0 },
+				"m_bUsePerVertexDamping": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fShearStiffness": { "type": "float32", "value": 1.0 },
+				"m_bUseSkinningPosNormalConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseSkinningNegNormalConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nIterations": { "type": "uint32", "value": 2 },
+				"m_fFrequency": { "type": "float32", "value": 90.0 },
+				"m_vTranslationScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.10000000149011612,
+						"y": 0.10000000149011612,
+						"z": 0.10000000149011612
+					}
+				},
+				"m_vGravity": {
+					"type": "SVector3",
+					"value": { "x": 0.0, "y": 0.0, "z": -13.0 }
+				},
+				"m_fLODOffset": { "type": "float32", "value": 100.0 },
+				"m_fDragConstant": { "type": "float32", "value": 1.0 },
+				"m_eStretchConstrainType": {
+					"type": "EClothStretchConstrainType",
+					"value": "eClothBendConstrainType_LRA"
+				},
+				"m_fAngularVelocityThreshold": {
+					"type": "float32",
+					"value": 60.0
+				},
+				"m_eRootBone": {
+					"type": "BoneId.Enum",
+					"value": "PELVIS"
+				},
+				"m_bEnableAngularVelocityScale": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eBendConstrainType": {
+					"type": "EClothBendConstrainType",
+					"value": "eClothBendConstrainType_Triangle"
+				},
+				"m_bRandomStartState": { "type": "bool", "value": true },
+				"m_fWindConstant": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_bSimulationEnabled": { "type": "bool", "value": true },
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"ca9e86cfdaed4c16",
+						"cafe82062a54b626",
+						"cafe6136f381187b",
+						"cafe84974972bdc7",
+						"cafe773c283026e2",
+						"cafed2098d686964",
+						"cafe5f03eef0c344",
+						"cafee7a06feff51b"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"ca9e86cfdaed4c16": {
+			"parent": "22ea5f8267450642",
+			"name": "Head_47",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_heads_unique.template?/head_47.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_heads_unique.template?/head_47.entitytemplate].pc_entityblueprint"
+		},
+		"cafe6136f381187b": {
+			"parent": "22ea5f8267450642",
+			"name": "Scarf_Long",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_neckwear.template?/scarf_long.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_neckwear.template?/scarf_long.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#8c1d2c"
+				}
+			}
+		},
+		"cafed2098d686964": {
+			"parent": "22ea5f8267450642",
+			"name": "Pants_Jeans_Baggy",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_legs.template?/pants_jeans_baggy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_legs.template?/pants_jeans_baggy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"ConstantVector1D_03_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#1f2f3b"
+				}
+			}
+		},
+		"cafe84974972bdc7": {
+			"parent": "22ea5f8267450642",
+			"name": "Coat_Trench_Open",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_torso_l02.template?/coat_trench_open.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_torso_l02.template?/coat_trench_open.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#202535"
+				}
+			}
+		},
+		"cafe5f03eef0c344": {
+			"parent": "22ea5f8267450642",
+			"name": "Belt_StrapBuckle",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_waist.template?/belt_strapbuckle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_waist.template?/belt_strapbuckle.entitytemplate].pc_entityblueprint"
+		},
+		"cafee7a06feff51b": {
+			"parent": "22ea5f8267450642",
+			"name": "Shoes_Boots_Ankle",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_feet.template?/shoes_boots_ankle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_feet.template?/shoes_boots_ankle.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#6e574f"
+				}
+			}
+		},
+		"cafe82062a54b626": {
+			"parent": "22ea5f8267450642",
+			"name": "Hands",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_reg_bodyparts.template?/hands.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_reg_bodyparts.template?/hands.entitytemplate].pc_entityblueprint"
+		},
+		"cafe773c283026e2": {
+			"parent": "22ea5f8267450642",
+			"name": "Shirt_Btnup_SrtSlv_Tkd",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_torso_l01.template?/shirt_btnup_srtslv_tkd.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_torso_l01.template?/shirt_btnup_srtslv_tkd.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/rat/streetguard_m/geometry/male_reg_streetguard_v3.wl2?/shirt_btnup_srtslv_tkd.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/paris/philip/textures/male_reg_philip_01_tie_01.texture?/specular_f.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/paris/philip/textures/male_reg_philip_01_tie_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_jacket.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_shirt.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/socks/textures/male_reg_socks.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/socks/textures/male_reg_socks.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/socks/textures/male_reg_socks.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/socks/geometry/male_reg_socks.wl2?/socks_cut_shoe.weightedprim](bodypart).pc_weightedprim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_s3_head.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_s3_head.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_s3_head.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/suit_pants/textures/male_reg_suit_pants_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/suit_pants/textures/male_reg_suit_pants_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/belt/textures/male_reg_belt_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/belt/textures/male_reg_belt_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/belt/textures/male_reg_belt_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_jacket.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/_test/dagb/textures/male_reg_suit_jacket_stretch_01.texture?/normal_open_stretched.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/_test/antonk/fabrictile_test.texture?/height_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_jacket.texture?/normal_open.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_pants.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_pants.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_signaturesuit/textures/agent47_signaturesuit_pants.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/male_reg/geometry/male_reg_arms.wl2?/hands.weightedprim](bodypart).pc_weightedprim",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
