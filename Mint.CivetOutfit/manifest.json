@@ -8,5 +8,5 @@
     "version": "1.0.0",
     "contentFolders": ["content"],
     "blobsFolders": ["blobs"],
-    "dependencies": ["chunk1"]
+    "dependencies": ["0090C6052968647B", "005F5970D148515A", "005CB10034AAA42F"]
 }
